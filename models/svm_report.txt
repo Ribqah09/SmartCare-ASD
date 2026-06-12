@@ -1,0 +1,12 @@
+SVM Accuracy : 0.9100
+SVM Recall   : 0.9100
+SVM AUC      : 0.9580
+
+              precision    recall  f1-score   support
+
+     Non-ASD       0.91      0.91      0.91       100
+         ASD       0.91      0.91      0.91       100
+
+    accuracy                           0.91       200
+   macro avg       0.91      0.91      0.91       200
+weighted avg       0.91      0.91      0.91       200

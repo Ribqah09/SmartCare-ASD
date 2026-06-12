@@ -1,0 +1,12 @@
+CNN Accuracy : 0.9200
+CNN Recall   : 0.9200
+CNN AUC      : 0.9650
+
+              precision    recall  f1-score   support
+
+     Non-ASD       0.92      0.92      0.92       100
+         ASD       0.92      0.92      0.92       100
+
+    accuracy                           0.92       200
+   macro avg       0.92      0.92      0.92       200
+weighted avg       0.92      0.92      0.92       200

@@ -1,0 +1,48 @@
+# Virtual Environments
+.venv/
+train_venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node Modules (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# Local Secrets & Settings
+.env
+.env.local
+.env.*.local
+*.local
+
+# System/IDE Folders
+.vscode/
+.idea/
+.gemini/
+brain/
+.system_generated/
+.tempmediaStorage/
+
+# Large Files & Docs
+*.docx
+*.pdf
+uploads/
+reports/
+*.png
+*.jpg
+*.jpeg
+*.pkl
+*.h5
+*.caffemodel
+*.npy
+ds_cache/
+*.data-00000-of-00001
+*.index
