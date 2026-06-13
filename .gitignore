@@ -40,6 +40,10 @@ reports/
 *.jpg
 *.jpeg
 *.pkl
+
+# Allow frontend assets & images
+!frontend/src/assets/**
+!frontend/public/**
 *.h5
 *.caffemodel
 *.npy
