@@ -217,7 +217,7 @@ export default function ResultsPage() {
           </div>
         </div>
         {pdf_url && (
-          <a href={`http://localhost:5001${pdf_url}`} target="_blank" rel="noreferrer"
+          <a href={`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}${pdf_url}`} target="_blank" rel="noreferrer"
             className="btn-secondary w-full sm:w-auto flex-shrink-0 text-xs text-center justify-center py-2.5">
             <Download className="w-4 h-4" /> PDF
           </a>
