@@ -14,6 +14,9 @@ export default function GoogleLoginButton() {
   const [loading, setLoading] = useState(false);
   const [googleInitialized, setGoogleInitialized] = useState(false);
 
+  console.log("VITE_GOOGLE_CLIENT_ID VALUE:", import.meta.env.VITE_GOOGLE_CLIENT_ID);
+  console.log("VITE_API_URL VALUE:", import.meta.env.VITE_API_URL);
+
   // Authenticate user with real Google Identity Service credentials
   const handleRealGoogleCredentialResponse = async (response) => {
     if (!response || !response.credential) {
